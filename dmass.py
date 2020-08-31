@@ -5,7 +5,7 @@ import random
 import time
 
 
-bot = commands.Bot(command_prefix='+', case_insensitive=True)
+bot = commands.Bot(command_prefix='=', case_insensitive=True)
 
 
 @bot.event
@@ -14,7 +14,7 @@ async def on_ready():
           f'Connected to {str(len(bot.guilds))} servers |'
           f'Connected to {str(len(set(bot.get_all_members())))} users')
     print('--------')
-    print('CREATED AND HOSTED BY INVADER OP | Fixed Version')
+    print('Join Our server for amazing things!')
 
 
 @bot.event
@@ -58,4 +58,4 @@ async def send(ctx, *, content: str):
             await ctx.send("DM can't send to : {} :x: ".format(member))
 
 
-bot.run("YOUR BOT'S TOKEN HERE")
+bot.run("NzQ5ODIzNTc2MjI3NzA4OTUw.X0xlnw.bAoHKBo16W_uGI8L4Quw80ZKxJw")
